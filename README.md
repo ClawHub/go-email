@@ -12,7 +12,9 @@ Go版本邮件发送服务
 
 ###项目代码结构
 ![image.png](https://upload-images.jianshu.io/upload_images/8803909-345664ab91a412fe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 比较简单的项目结构。
+
 ###技术核心：发送邮件
 ```
 func Send(subject, toAddress, toName, body string) error {
